@@ -1,6 +1,6 @@
 {
   "name": "vue-covid19",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,7 +11,8 @@
     "core-js": "^3.6.4",
     "numeral": "^2.0.6",
     "vue": "^2.6.11",
-    "vue-filter-number-format": "^2.0.0"
+    "vue-filter-number-format": "^2.0.0",
+    "vue-good-table": "^2.19.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
