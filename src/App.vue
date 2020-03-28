@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <AboutCovid />
+    <AllCases />
   </div>
 </template>
 
 <script>
 import AboutCovid from "./components/AboutCovid";
+import AllCases from "./components/AllCases";
 
 export default {
   name: "App",
   components: {
-    AboutCovid
+    AboutCovid,
+    AllCases
   }
 };
 </script>

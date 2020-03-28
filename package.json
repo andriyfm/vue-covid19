@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "numeral": "^2.0.6",
+    "vue": "^2.6.11",
+    "vue-filter-number-format": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
