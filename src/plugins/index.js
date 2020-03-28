@@ -1,4 +1,5 @@
-export default {
-  axios: require("./axios"),
-  vueFilterNumberFormat: require("./vue-filter-number-format")
-};
+export default [
+  require("./axios"),
+  require("./vue-filter-number-format"),
+  require("./vue-good-table")
+];

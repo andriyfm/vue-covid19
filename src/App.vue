@@ -2,18 +2,21 @@
   <div id="app">
     <AboutCovid />
     <AllCases />
+    <CountryList />
   </div>
 </template>
 
 <script>
 import AboutCovid from "./components/AboutCovid";
 import AllCases from "./components/AllCases";
+import CountryList from "./components/CountryList";
 
 export default {
   name: "App",
   components: {
     AboutCovid,
-    AllCases
+    AllCases,
+    CountryList
   }
 };
 </script>
