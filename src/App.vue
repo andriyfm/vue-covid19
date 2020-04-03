@@ -1,31 +1,32 @@
 <template>
   <div id="app">
-    <AboutCovid />
-    <AllCases />
-    <CountryData />
-    <CountryList />
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
 
-<script>
-import AboutCovid from "./components/AboutCovid";
-import AllCases from "./components/AllCases";
-import CountryList from "./components/CountryList";
-import CountryData from "./components/CountryData";
-
-export default {
-  name: "App",
-  components: {
-    AboutCovid,
-    AllCases,
-    CountryList,
-    CountryData
-  }
-};
-</script>
-
 <style>
 #app {
-  font-family: Operator Mono, monospace;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>
