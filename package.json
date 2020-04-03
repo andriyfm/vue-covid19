@@ -1,6 +1,6 @@
 {
   "name": "vue-covid19",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,11 +12,13 @@
     "numeral": "^2.0.6",
     "vue": "^2.6.11",
     "vue-filter-number-format": "^2.0.0",
-    "vue-good-table": "^2.19.1"
+    "vue-good-table": "^2.19.1",
+    "vue-router": "^3.1.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
     "axios": "^0.18.0",
     "babel-eslint": "^10.0.3",
