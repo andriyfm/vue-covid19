@@ -1,5 +1,9 @@
 # Changelog
 
+## Release v1.1.0 [04/03/2020]
+
+- Start using vue-router
+
 ## Release v1.1.0 [03/28/2020]
 
 - Create cases by country table component
